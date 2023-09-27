@@ -48,12 +48,47 @@ ul {
 .small {
   font-size: small;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr {
+    border: 0.1pt solid black
+}
 </style>
 </head>
 <body>
 <h1>Curriculum Vitae</h1>
 <h2>Mathijs de Bruin</h2>
 Over 20 years of demonstrable, real-world experience in <strong>backend software engineering</strong>, <strong>systems architecture</strong>, <strong>DevOps</strong>, and <strong>data modeling</strong> and <strong>scientific data analysis</strong>.
+<hr>
+
+<section class="row">
+<div class="column">
+<h3>Contact details</h3>
+<table class="personalia">
+  <tr>
+    <th>Phone</th>
+    <td><a href="tel:00351964061972">+351 964 061 972</a></td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td><a href="mailto:mathijs@mathijsfietst.nl">mathijs@mathijsfietst.nl</a></td>
+  </tr>
+  <tr>
+    <th>GitHub</th>
+    <td><a href="https://github.com/dokterbob">https://github.com/dokterbob</a></td>
+  </tr>
+</table>
+</div>
+
+<div class="column">
 <h3>Personalia</h3>
 <table class="personalia">
   <tr>
@@ -70,19 +105,11 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
       Portugal
     </td>
   </tr>
-  <tr>
-    <th>Phone</th>
-    <td><a href="tel:00351964061972">+351 964 061 972</a></td>
-  </tr>
-  <tr>
-    <th>Email</th>
-    <td><a href="mailto:mathijs@mathijsfietst.nl">mathijs@mathijsfietst.nl</a></td>
-  </tr>
-  <tr>
-    <th>GitHub</th>
-    <td><a href="https://github.com/dokterbob">https://github.com/dokterbob</a></td>
-  </tr>
 </table>
+</div>
+</section>
+<hr>
+
 <h3>Core Competences</h3>
 <ul>
   <li>
@@ -97,6 +124,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
     <strong>Innovation & Strategy:</strong> Thought leader in <strong>Web3</strong> and decentralized technologies. Active contributor to open-source initiatives and recipient of innovation awards.
   </li>
 </ul>
+<hr>
 
 <h3>Technical Skills</h3>
 <table>
@@ -138,6 +166,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
     </tr>
 </table>
 
+<hr>
 <h3 style="page-break-before: always">Project Portfolio</h3>
 <table class="professional">
   <tr>
@@ -195,6 +224,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
   </tr>
 </table>
 
+<hr>
 <h3 id="professional-experience">Professional Experience</h3>
 <table class="professional">
   <tr>
@@ -238,6 +268,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
     <td>Construction of websites (HTML, CSS and JavaScript) from design concepts.</td>
   </tr>
 </table>
+<hr>
 
 <h3 id="founding-roles">Founding Roles</h3>
 <table class="professional">
@@ -291,6 +322,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
   </tr>
 </table>
 
+<hr>
 <h3>Education</h3>
 <table class="education">
   <tr>
@@ -318,6 +350,8 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
     <td></td>
   </tr>
 </table>
+
+<hr>
 <h3>Extracurricular Activities</h3>
 <table class="extracurricular">
   <tr>
@@ -337,6 +371,8 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
     <td>Critical street-art project, questioning the commercial domination of public space by advertisement.</td>
   </tr>
 </table>
+<hr>
+
 <h3>Language Skills</h3>
 <table>
     <tr>
@@ -364,6 +400,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
         <td>beginner</td>
      </tr>
 </table>
+<hr>
 
 <h3>Awards</h3>
 <table>
@@ -376,6 +413,8 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
         <td>Won both the public's prize (&euro; 1000) as well as the jury&#x27;s prize (&euro; 2000) for the innovative concept of using decentralized peer-to-peer networks and semantic web technology for the coordination and routing in logistics.</td>
      </tr>
 </table>
+
+<hr>
 <h3>Papers and articles</h3>
 <table class="papers">
   <tr>
@@ -401,8 +440,7 @@ Over 20 years of demonstrable, real-world experience in <strong>backend software
   </tr>
 </table>
 
-<h3>References</h3>
-<p>Available upon request.</p>
+<hr>
 
 <h3>Personal interests</h3>
 <ul>
