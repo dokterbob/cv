@@ -93,9 +93,21 @@ tr, li {
 footer {
   clear: both;
 }
+.pdf {
+  float: right;
+}
+@media print {
+  .pdf {
+    visibility: hidden;
+  }
+}
 </style>
 </head>
 <body>
+<side class="pdf">
+    <p><a href="cv_mathijs_de_bruin.pdf"><img style="height: 5ex" src="pdf-icon.svg" alt="PDF"/></a></p>
+</side>
+
 <header>
   <h1>Curriculum Vitae</h1>
   <h2>Mathijs de Bruin</h2>
