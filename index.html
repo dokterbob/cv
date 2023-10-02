@@ -3,23 +3,53 @@
 <head>
 <title>Mathijs de Bruin | Curriculum Vitae</title>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="reset.css">
 <style type="text/css">
 body {
   font-family: "Helvetica Neue", Geneva, Arial, Helvetica, sans-serif;
   font-size: 12pt;
-  padding-top: 20pt;
-  padding-left: 8pt;
-  padding-right: 20pt;
-  padding-bottom: 0pt;
+  margin-top: 1em;
+  margin-left: 1ex;
+  margin-right: 2ex;
+  margin-bottom: 1em;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 500;
+}
+h1 {
+  font-weight: 100;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+h2 {
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+h3 {
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+header {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+header strong {
+  font-weight: 400;
 }
 td {
   vertical-align: text-top;
-  font-size: 10pt;
-  padding: 2pt;
+  padding: 2pt 4pt 2pt 2pt;
 }
 th {
-  font-size: 10pt;
-  font-weight: bold;
+  font-weight: 600;
   text-align: left;
   vertical-align: text-top;
   padding-right: 10pt;
@@ -64,9 +94,9 @@ footer {
   clear: both;
 }
 section, header {
-  padding-bottom: 2.5ex;
   min-width: 20em;
   max-width: 44em;
+  margin: 1ex;
 }
 @media screen and (min-width: 45em) {
   section, header {
@@ -85,6 +115,7 @@ footer {
   margin-top: 1ex;
 }
 section {
+  padding-bottom: 2.5ex;
   float: left;
 }
 tr, li {
@@ -96,6 +127,9 @@ footer {
 .pdf {
   float: right;
 }
+.pdf img {
+  height: 3em;
+}
 @media print {
   .pdf {
     visibility: hidden;
@@ -105,13 +139,13 @@ footer {
 </head>
 <body>
 <side class="pdf">
-    <p><a href="cv_mathijs_de_bruin.pdf"><img style="height: 5ex" src="pdf-icon.svg" alt="PDF"/></a></p>
+    <p><a href="cv_mathijs_de_bruin.pdf"><img src="pdf-icon.svg" alt="PDF"/></a></p>
 </side>
 
 <header>
   <h1>Curriculum Vitae</h1>
   <h2>Mathijs de Bruin</h2>
-  Over 20 years of demonstrable, real-world experience in <strong>backend software engineering</strong>, <strong>systems architect</strong>, <strong>DevOps engineer</strong>, <strong>data scientist</strong>.
+  <p>Over 20 years of demonstrable, real-world experience in <strong>backend software engineering</strong>, <strong>systems architect</strong>, <strong>DevOps engineer</strong>, <strong>data scientist</strong>.</p>
 </header>
 
 <section class="row personalia">
@@ -463,7 +497,7 @@ footer {
   <h3>Papers, articles, interviews</h3>
   <table>
     <tr>
-      <th><a href="https://urgentcity.eu/work/mathijs-de-bruin/">Interview: UrgentCity - Towards a New Vocabulary of Terms</a></th>
+      <th><a href="https://urgentcity.eu/work/mathijs-de-bruin/">Interview: Towards a New Vocabulary of Terms</a></th>
       <td><p>In a thought-provoking interview as part of the Decentralized Society Research Project, I explored societal decentralization, ecological and cultural diversity as well as grace as pivotal towards a harmonious human-environment future, leveraging my background in philosophy, physics, and IT.</p></td>
     </tr>
 
@@ -477,15 +511,15 @@ footer {
       <p>Final thesis for 'Energy and climate' BSc honours module.</p></td>
     </tr>
     <tr>
-      <th><a href="http://www.scribd.com/doc/57127637">Proposal for a formal interpretation of Latour's actor-network theory aimed at computational application</a></th>
-      <td>An interpretation of Bruno Latour's actor-network theory, suggesting the possibility of developing a semantically and interpretively neutral tool for the analysis of information.</td>
+      <th><a href="http://www.scribd.com/doc/57127637">Interpretation of Latour's actor-network theory</a></th>
+      <td>An interpretation of Bruno Latour's actor-network theory, aimed at computational application, suggesting the possibility of developing a semantically and interpretively neutral tool for the analysis of information.</td>
     </tr>
     <tr>
       <th><a href="http://www.scribd.com/doc/57127450/Connecting-First-And-Third-person-Perspectives">Connecting First- and Third-person Perspectives</a></th>
       <td>A generalization of consciousness as resonant patterns in complex (non-linear) systems, and an information-theoretic argument exploring upper limits to self-consciousness and self-knowledge.</td>
     </tr>
     <tr>
-      <th><a href="http://www.scribd.com/doc/57127744">The Quantum Measurement Process; natural emergence of classicality in measurement processes</a></th>
+      <th><a href="http://www.scribd.com/doc/57127744">The Quantum Measurement Process</a></th>
       <td>Discussion of the typical aspects of a measurement process in quantum physics, the interpretation thereof and the description of such a process wherein classical 'macroscopic' behaviour is shown to emerge naturally (ie. without a collapse postulate).</td>
     </tr>
   </table>
